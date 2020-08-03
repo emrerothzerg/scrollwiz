@@ -47,7 +47,20 @@ class ScrollWiz {
 }
 
 const runFunc = () => {
-  new ScrollWiz();
+  window.addEventListener(
+    "load",
+    () => {
+      if ("IntersectionObserver" in window) {
+        new ScrollWiz();
+      } else {
+        document.querySelectorAll(`[data-scrollwiz]`).forEach(el => {
+          el.removeAttribute(this.selector);
+          el.classList.add("is-active"); 
+        });
+      }
+    },
+    false
+  );
 };
 
 export default runFunc;
