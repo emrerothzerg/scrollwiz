@@ -1,6 +1,6 @@
 class ScrollWiz {
   constructor() {
-    const selector = "scroll-trigger",
+    const selector = "scrollwiz",
       options = {
         start: {
           rootMargin: "0px",
@@ -29,7 +29,7 @@ class ScrollWiz {
 
     this.selector = `data-${selector}`;
     this.scroll_event = document.createEvent("Event");
-    this.scroll_event.initEvent("scroll-trigger", true, true);
+    this.scroll_event.initEvent("scrollwiz", true, true);
 
     document.querySelectorAll(`[${this.selector}]`).forEach((el) => {
       let pos = el.getAttribute(this.selector);
