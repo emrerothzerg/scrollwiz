@@ -1,0 +1,26 @@
+{
+  "name": "scrollwiz",
+  "version": "1.0.0",
+  "description": "Allows you to add .is-active class into elements when they are in the viewport.",
+  "homepage": "https://www.emrerothzerg.com.au",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "babel src --out-dir lib"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "author": "Emre Rothzerg <hello@emrerothzerg.com> (https://www.emrerothzerg.com/)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emrerothzerg/scrollwiz.git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
