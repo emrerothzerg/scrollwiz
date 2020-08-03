@@ -1,6 +1,6 @@
 # ScrollWiz
 
-Allows you to add .is-active class into elements when they are in the viewport.
+Allows you to add .is-active class into elements when they are in the viewport on scroll.
 
 ## Installation
 
@@ -50,11 +50,11 @@ SCSS
 }
 ```
 
-`data-scrollwiz="start"` adds .is-active when the element just gets into the viewport
+`data-scrollwiz="start"` adds .is-active when the element just gets into the viewport on scroll
 
-`data-scrollwiz="half"` adds .is-active when the half of the element gets into the viewport
+`data-scrollwiz="half"` adds .is-active when the half of the element gets into the viewport on scroll
 
-`data-scrollwiz="full"` adds .is-active when all of the element gets into the viewport
+`data-scrollwiz="full"` adds .is-active when all of the element gets into the viewport on scroll
 
 ### License
 

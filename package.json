@@ -1,7 +1,7 @@
 {
   "name": "scrollwiz",
   "version": "1.0.0",
-  "description": "Allows you to add .is-active class into elements when they are in the viewport.",
+  "description": "Allows you to add .is-active class into elements when they are in the viewport on scroll.",
   "homepage": "https://www.emrerothzerg.com.au",
   "main": "lib/index.js",
   "scripts": {
