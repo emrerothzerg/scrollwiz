@@ -1,6 +1,6 @@
 # ScrollWiz
-Allows you to add .is-active class into elements when they are in the viewport.
 
+Allows you to add .is-active class into elements when they are in the viewport.
 
 ## Installation
 
@@ -32,22 +32,22 @@ SCSS
 
 ```scss
 .box {
-	height: 700px;
-	transition: opacity 1s linear;
-	opacity: 0;
-    &--blue{
-        background-color: blue;
-    }
-    &--red{
-        background-color: red;
-    }
-    &--yellow{
-        background-color: yellow;
-    }
-    &.is-active {
-		opacity: 1;
-	}
-} 
+  height: 700px;
+  transition: opacity 1s linear;
+  opacity: 0;
+  &--blue {
+    background-color: blue;
+  }
+  &--red {
+    background-color: red;
+  }
+  &--yellow {
+    background-color: yellow;
+  }
+  &.is-active {
+    opacity: 1;
+  }
+}
 ```
 
 `data-scrollwiz="start"` adds .is-active when the element just gets into the viewport
