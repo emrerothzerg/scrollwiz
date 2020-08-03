@@ -33,7 +33,7 @@ class ScrollWiz {
 
     document.querySelectorAll(`[${this.selector}]`).forEach((el) => {
       let pos = el.getAttribute(this.selector);
-      pos = typeof pos == "string" ? pos : `half`;
+      pos = pos == "" ? `half` : pos;
       o[pos] && o[pos].observe(el);
     });
   }
@@ -46,8 +46,8 @@ class ScrollWiz {
   }
 }
 
-const runFunc = () =>{
+const runFunc = () => {
   new ScrollWiz();
-}
+};
 
 export default runFunc;
